@@ -12,3 +12,24 @@ Content-Type: application/json
 
 ### Get a message by ID
 GET http://localhost:3000/messages/da1bqj 
+
+
+### Get all US states
+GET http://localhost:3000/ai/states
+
+### Get all US states abbreviations
+GET http://localhost:3000/ai/states-abbreviations
+
+### Get user list
+GET http://localhost:3000/ai/users
+
+### Get kpi data
+GET http://localhost:3000/ai/kpi-data
+
+### Get Response from AI
+POST http://localhost:3000/ai/generate-response
+Content-Type: application/json
+
+{
+  "input": "What is the weather in new york?"
+}
